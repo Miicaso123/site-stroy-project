@@ -1,0 +1,60 @@
+.Footer {
+    padding-top: 15px;
+    height: 140px;
+    background: url(./../../../public/images/foot.png);
+    background-color: rgb(172, 166, 166);
+
+}
+
+.Footer_infa {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    width: 340px;
+}
+
+.Footer_infa img {
+    width: 73px;
+    height: 72px;
+    flex-shrink: 0;
+}
+
+.subText {
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.Footer h1 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.logo_text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.slogan p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.slogan {
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    gap: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}

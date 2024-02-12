@@ -1,0 +1,143 @@
+.House {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 271px;
+    height: 295px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.House img {
+    position: absolute;
+    z-index: -1;
+}
+
+.House_name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 194px;
+    height: 44px;
+    border-radius: 15px;
+    background: rgba(248, 248, 248, 0.50);
+    margin-top: 9px;
+}
+
+.House_name p {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 77.4%;
+}
+
+.House button {
+    width: 194px;
+    height: 44px;
+    border-radius: 15px;
+    border: 1px solid rgba(244, 185, 33, 0.70);
+    background: #F4B921;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 77.4%;
+    margin-bottom: 25px;
+}
+
+.ServicesHouse {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.container h2 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 77.4%;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+
+.Material {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 271px;
+    height: 295px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Material img {
+    position: absolute;
+    z-index: -1;
+}
+
+.Material_name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 194px;
+    height: 44px;
+    border-radius: 15px;
+    background: rgba(248, 248, 248, 0.50);
+    margin-top: 9px;
+}
+
+.Material_name p {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 77.4%;
+}
+
+.Material button {
+    width: 194px;
+    height: 44px;
+    border-radius: 15px;
+    border: 1px solid rgba(244, 185, 33, 0.70);
+    background: #F4B921;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 77.4%;
+    margin-bottom: 25px;
+}
+
+.ServicesMaterial {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+    margin-bottom: 50px;
+}
+
+.form input {
+    height: 30px;
+}
+
+.form button {
+    height: 30px;
+    width: 50px;
+}

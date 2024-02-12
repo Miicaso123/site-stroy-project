@@ -1,0 +1,103 @@
+.Project_full img {
+    width: 108px;
+    height: 108px;
+    flex-shrink: 0;
+}
+
+
+.Project_up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.Project_yellow {
+    position: relative;
+    width: 1360px;
+    height: 191px;
+    flex-shrink: 0;
+    background: #F4B921;
+}
+
+.Project_slogan {
+    position: absolute;
+}
+
+.Project_slogan p {
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 77.4%;
+}
+
+.Project_infa {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Project_infa1 {
+    display: flex;
+}
+
+.down_line1 {
+    position: absolute;
+    height: 54px;
+    width: 54px;
+    overflow: hidden;
+    display: flex;
+    margin-left: 40%;
+    margin-top: 10%;
+    transform: rotate(90deg) 
+    
+}
+
+.infa3 {
+    position: relative;
+}
+
+
+.Project_infa2 {
+    margin-top: 10%;
+    display: flex;
+}
+
+.Project_infa3 {
+    margin-top: 10%;
+    display: flex;
+}
+
+
+.down_line2 {
+    /* position: absolute;
+    height: 54px;
+    width: 54px;
+    overflow: hidden; */
+    display: flex;
+    /* margin-left: 40%;
+    margin-top: 10%; */
+    transform: rotate(45deg) 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
