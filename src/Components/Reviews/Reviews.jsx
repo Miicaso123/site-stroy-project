@@ -18,7 +18,7 @@ let Reviews = (props) => {
     return (
         <div className="Reviews">
                 <div className="formReview">
-                    <p>Оставить отзыв</p>
+                    <p>Оставить отзывВВ</p>
                     <textarea ref={newReviews} value={props.state.newReviews} onChange={updateNewReviewstext}></textarea>
                     <button onClick={addReviews}>ок</button>
                 </div>
