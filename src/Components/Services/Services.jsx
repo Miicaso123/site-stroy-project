@@ -10,11 +10,11 @@ let Services = (props) => {
     const newHouseDescription = React.useRef();
 
     let addHouse = () => {
-        props.dispatch(addHouseActionCreater())
+        props.addHouse();
     }
 
     let updateNewHousesText = () => {
-        props.dispatch(updateNewHousesTextActionCreater(newHouseName.current.value, newHouseDescription.current.value));
+        props.updateNewHousesText(newHouseName.current.value, newHouseDescription.current.value)
     }
     
     
@@ -24,13 +24,13 @@ let Services = (props) => {
                 <h2>Строительство коттеджей</h2>
                 <div className="form">
                     <p>Добавить дом</p>
-                    <input type="text" placeholder="Название дома" ref={newHouseName} value = {props.state.newHouseName} onChange={updateNewHousesText}/>
-                    <input type="text" placeholder="Описание" ref={newHouseDescription} value={props.state.newHouseDescription} onChange={updateNewHousesText}/>
+                    <input type="text" placeholder="Название дома" ref={newHouseName} value = {props.housesPage.newHouseName} onChange={updateNewHousesText}/>
+                    <input type="text" placeholder="Описание" ref={newHouseDescription} value={props.housesPage.newHouseDescription} onChange={updateNewHousesText}/>
                     <button onClick={addHouse}>Submit</button>
                 </div>
-                <ServicesHouse state={props.state}/>
+                <ServicesHouse state={props.housesPage}/>
                 <h2>Строительные материалы</h2>
-                <ServicesMaterial state={props.state}/>
+                <ServicesMaterial state={props.materialsPage}/>
             </div>
         </div>
     )

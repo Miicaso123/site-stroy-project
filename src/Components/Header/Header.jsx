@@ -48,6 +48,9 @@ let Header = () => {
                         </li>
                         <li>Партнеры</li>
                         <li>Портфолио</li>
+                        <li>
+                            <NavLink to = "/login">Войти</NavLink>
+                        </li>
                     </ul>
                 </nav>
             

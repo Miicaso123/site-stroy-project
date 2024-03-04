@@ -115,3 +115,7 @@ nav ul li {
 .active {
     color: greenyellow;
 }
+
+nav ul li a{
+    text-decoration: none;
+}

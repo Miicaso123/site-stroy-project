@@ -12,8 +12,8 @@ let ServicesHouse = (props) => {
             )
            }
         </div>
-    )
-}
+    );
+};
 
 export default ServicesHouse;
 
