@@ -7,7 +7,7 @@ let ServicesHouse = (props) => {
         <div className="ServicesHouse">
            {
             props.state.houses.map((house) => (
-                <House name = {house.name} image = {house.image} id = {house.id} key = {house.id}/>
+                <House name = {house.name} image = {house.image} id = {house.id} key = {house.id} deleteHouse={props.deleteHouse}/>
             )
             )
            }

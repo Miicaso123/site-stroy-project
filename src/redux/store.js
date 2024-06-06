@@ -5,6 +5,8 @@ const ADD_HOUSE = "ADD_HOUSE";
 const UPDATE_NEW_HOUSES_TEXT = "UPDATE_NEW_HOUSES_TEXT";
 const ADD_REVIEWS = "ADD_REVIEWS";
 const UPDATE_NEW_REVIEWS_TEXT = "UPDATE_NEW_REVIEWS_TEXT";
+const SET_HOUSE = "SET_HOUSE";
+const DELETE_HOUSE = "DELETE_HOUSE";
 
 let store = {
     _state: {
@@ -122,5 +124,9 @@ export const updateNewHousesTextActionCreater = (newHouseName, newHouseDescripti
 export const addReviewsActionCreater = () => ({type: ADD_REVIEWS});
 
 export const updateNewReviewsTextActionCreater = (newReviews) => ({type: UPDATE_NEW_REVIEWS_TEXT, newReviewsText: newReviews});
+
+export const setHouseActionCreator = (houses) => ({type: SET_HOUSE, houses: houses});
+
+export const deleteHouseActionCreater = (id) => ({type: DELETE_HOUSE, id: id});
 
 export default store;

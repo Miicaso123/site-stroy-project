@@ -1,0 +1,170 @@
+{
+  "users": [
+    {
+      "email": "gelik@gmail.com",
+      "password": "$2a$10$MaCRcUst8PfH3WQd2XvzDesi2MZfSfGtVq/xaTRUbKBKp/xv/rhKC",
+      "name": "Aleka",
+      "surname": "Samantan",
+      "id": 1
+    },
+    {
+      "email": "wakanda@gmail.com",
+      "password": "$2a$10$eOK1H7P0yAfXOsOyVcqQLeAQZn1LB6FJzCEArd.tWyyFlpo/4ebpm",
+      "name": "Waka",
+      "surname": "Laka",
+      "id": 2
+    },
+    {
+      "email": "ttkurmanai@gmail.com",
+      "password": "$2a$10$TOyXXsrf2E2Cp7Zeu54VKucUdrViDnbBkDhTEcMFmQh40YVvCNw3e",
+      "name": "Kurmanay",
+      "surname": "Tolenova",
+      "id": 3
+    },
+    {
+      "email": "micaso@gmail.com",
+      "password": "$2a$10$7YCx5maY9EWFK/aVTjLZ1ecHNc2JrSh2jHjWFgLBrvid1OkD6KJ5a",
+      "name": "Micaso",
+      "surname": "Kelen",
+      "urlImg": "https://static.vecteezy.com/system/resources/previews/002/002/257/non_2x/beautiful-woman-avatar-character-icon-free-vector.jpg",
+      "country": "Thailand",
+      "id": 4
+    },
+    {
+      "email": "doszhan@gmail.com",
+      "password": "$2a$10$WvQUeWhx1yU1iIA0tJbo2.8.Tq8/Ytsar3T/o1zWCaM4vTJT.UQDy",
+      "name": "doszhan",
+      "surname": "DDD",
+      "urlImg": null,
+      "country": "Kazahstan",
+      "id": 5
+    },
+    {
+      "email": "y3rda@mail.ru",
+      "password": "$2a$10$DUVRkiJO4OVKB0e8tHYV8O4h8mjpx./q.iYaXDYj2Crg1ikD2ewpS",
+      "name": "Yerdaulet",
+      "surname": "Tolenova",
+      "urlImg": "https://devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/4X/1/0/e/10e6c0a439e17280a6f3fa6ae059819af5517efd.png",
+      "country": "England",
+      "id": 6
+    },
+    {
+      "email": "kent@gmail.com",
+      "password": "$2a$10$7kJYZjjN7NFVO8vgA2xAh.lz62XWCmttseU8aO0aG200Q0BM8HgUC",
+      "name": "Kento",
+      "surname": "Yamazaki",
+      "urlImg": "https://www.drawing123.com/wp-content/uploads/2021/10/levi-drawing-step-11.png",
+      "country": "China",
+      "id": 7
+    },
+    {
+      "email": "jennie@gmail.com",
+      "password": "$2a$10$iYQwqU8RtXc1M7AvCKHVvOqBDIPO1hAO72weXbumlB5qs7gVwQdwC",
+      "name": "Jennie",
+      "surname": "Kim",
+      "urlImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuncsmTSIH6C5jEBOs3UB1X1GzRVQxzqATzhuN4wXQSw&s",
+      "country": "South Korea",
+      "id": 8
+    },
+    {
+      "email": "rose@gmail.com",
+      "password": "$2a$10$HhOgajaq0gnt3HcBZtZjcOMQGLpWUsp4ABAGIZw2DVru.vPP39PuK",
+      "name": "Rose",
+      "surname": "Park",
+      "urlImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDG_HOPXY-t7-Ctz5U4I08BZ2hiFMthU0njg&s",
+      "country": "USA",
+      "id": 9
+    }
+  ],
+  "houses": [
+    {
+      "name": "Норм",
+      "image": "./images/House1.png",
+      "id": 1,
+      "description": "дом"
+    },
+    {
+      "name": "ауу",
+      "image": "./images/House4.png",
+      "id": 2,
+      "description": "ууу"
+    },
+    {
+      "name": "Nice",
+      "description": "housesbg",
+      "image": "./images/House4.png",
+      "id": 3
+    },
+    {
+      "name": "super",
+      "description": "houseee",
+      "image": "blob:http://localhost:3000/1746c83a-0498-440b-9797-b31029740eb2",
+      "id": 4
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "review": "Лучший сайт!!!",
+      "user": {
+        "id": 6,
+        "email": "y3rda@mail.ru",
+        "name": "Yerdaulet",
+        "surname": "Tolenova",
+        "urlImg": "https://devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/original/4X/1/0/e/10e6c0a439e17280a6f3fa6ae059819af5517efd.png"
+      }
+    },
+    {
+      "review": "Nice",
+      "id": 2,
+      "user": {
+        "email": "kent@gmail.com",
+        "name": "Kento",
+        "surname": "Yamazaki",
+        "urlImg": "https://www.drawing123.com/wp-content/uploads/2021/10/levi-drawing-step-11.png",
+        "country": "China",
+        "id": 7,
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtlbnRAZ21haWwuY29tIiwiaWF0IjoxNzEzNTU1NjA3LCJleHAiOjE3MTM1NTkyMDcsInN1YiI6IjcifQ.QSETMTB0P-UT1-7z6VXy9GB7gsVt5TgaO7rRyyMOV40"
+      }
+    },
+    {
+      "review": "Люблю этот сайт!!",
+      "id": 3,
+      "user": {
+        "email": "kent@gmail.com",
+        "name": "Kento",
+        "surname": "Yamazaki",
+        "urlImg": "https://www.drawing123.com/wp-content/uploads/2021/10/levi-drawing-step-11.png",
+        "country": "China",
+        "id": 7,
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImtlbnRAZ21haWwuY29tIiwiaWF0IjoxNzEzNTU1NjA3LCJleHAiOjE3MTM1NTkyMDcsInN1YiI6IjcifQ.QSETMTB0P-UT1-7z6VXy9GB7gsVt5TgaO7rRyyMOV40"
+      }
+    },
+    {
+      "review": "Норм",
+      "id": 4,
+      "user": {
+        "email": "jennie@gmail.com",
+        "name": "Jennie",
+        "surname": "Kim",
+        "urlImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuncsmTSIH6C5jEBOs3UB1X1GzRVQxzqATzhuN4wXQSw&s",
+        "country": "South Korea",
+        "id": 8,
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Implbm5pZUBnbWFpbC5jb20iLCJpYXQiOjE3MTU5NDkwODAsImV4cCI6MTcxNTk1MjY4MCwic3ViIjoiOCJ9.LjXZ6nLAxXeECsXjeJ76JpQXLZHZ4GPqh_Lmda1FEZM"
+      }
+    },
+    {
+      "review": "top",
+      "id": 5,
+      "user": {
+        "email": "rose@gmail.com",
+        "name": "Rose",
+        "surname": "Park",
+        "urlImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDG_HOPXY-t7-Ctz5U4I08BZ2hiFMthU0njg&s",
+        "country": "USA",
+        "id": 9,
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJvc2VAZ21haWwuY29tIiwiaWF0IjoxNzE3MjU5MjM1LCJleHAiOjE3MTcyNjI4MzUsInN1YiI6IjkifQ.nKbTtWWwdMkWetsGN-LarmncjatTHGruO8I8xH8xmaI"
+      }
+    }
+  ]
+}

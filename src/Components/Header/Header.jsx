@@ -1,9 +1,20 @@
 import "./Header.css";
 import "../../App.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
+
+
+
 
 let Header = () => {
 
+    const navigate = useNavigate()
+
+    let currentUser = JSON.parse(localStorage.getItem('user'))
+
+    let logOut = () => {
+        localStorage.removeItem("user")
+        navigate("/")
+    }
     return (
         <div className="Header">
             <div className="container">
@@ -28,6 +39,7 @@ let Header = () => {
                                 <img src="./images/vk.png" alt="" />
                                 <img className="phoneLogo" src="./images/phone.png" alt="" />
                                 <p>+7 902 471-07-79</p>
+                                <NavLink to= "/profile"><img src="./images/profile.png" alt="no" /></NavLink>
                             </div>
                         </div>
                     </div>
@@ -46,11 +58,15 @@ let Header = () => {
                         <li>
                             <NavLink to = "/reviews">Отзывы</NavLink>
                         </li>
-                        <li>Партнеры</li>
-                        <li>Портфолио</li>
-                        <li>
-                            <NavLink to = "/login">Войти</NavLink>
-                        </li>
+                        {
+                            currentUser!= null ? 
+                            (<li onClick={logOut}>
+                                Выйти
+                            </li>) : 
+                            (<li onClick={()=>{navigate("/login")}} >
+                                Войти
+                            </li>)
+                        }
                     </ul>
                 </nav>
             

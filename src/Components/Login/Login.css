@@ -1,0 +1,79 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 700px;
+    background-position: center;
+    background: url(/public/images/loginfe.jpg);
+    background-size: cover;
+}
+
+.contain {
+    position: relative; 
+    width: 100%;
+    max-width: 450px;
+    height: 530px;
+    background: transparent;
+    border-radius: 20px;
+    border: 2px solid rgba(257, 257, 257, .7);
+    backdrop-filter: blur(20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.form h1 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+input {
+    width: 400px;
+}
+
+.password-input {
+    position: relative;
+}
+
+
+.eye-icon {
+    position: absolute;
+    top: 45%;
+    right: 30px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+
+.eye-icon svg {
+    width: 20px;
+    height: 20px;
+}
+
+.btnn {
+    width: 100px;
+    height: 45px;
+    background: greenyellow;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+

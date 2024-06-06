@@ -1,0 +1,80 @@
+
+.Profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 12px yellowgreen;
+    font-size: large;
+  }
+  
+  
+  .container-profile {
+    width: 80%;
+  }
+
+  .wrapper-profile {
+    width: 100%;
+    display: flex;
+    gap: 25%;
+  }
+  
+  .profile-up {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 30%;
+  }
+  
+  .image-profile {
+    margin-right: 20px;
+  }
+  
+  .image-profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+  }
+  
+  .name-profile {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .profile-down {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .first-side,
+  .second-side {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+  }
+  
+  .location-dev {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button-profile button {
+    background: #F4B921;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-profile button:hover {
+    box-shadow: 0 0 0 2px rgb(255, 205, 66), 0 0 0 4px #9fff5a;
+  }

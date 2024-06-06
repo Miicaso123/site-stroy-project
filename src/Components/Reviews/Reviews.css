@@ -2,10 +2,13 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 700px;
-    margin-top: 50px;
+    height: 100%;
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+    background-position: center;
+    background: url(/public/images/loginfe.jpg);
+    background-size: cover;
 }
-
 
 .formReview {
     display: flex;
@@ -13,6 +16,7 @@
     align-items: center;
     gap: 12px;
     width: 600px;
+    margin-top: 40px;
 }
 
 .formReview p {
@@ -37,3 +41,79 @@
     box-shadow: 0 2px 25px rgba(31, 243, 12, 0.5);
 }
 
+.review-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.review-block {
+    width: 500px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(15px);
+    border: 1px solid #ffffd8;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.review-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.review-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.review-profile {
+    display: flex;
+    align-items: center;
+}
+
+.review-username {
+    display: flex;
+    flex-direction: column;
+}
+
+.review-username strong {
+    color: #181717;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+
+.review-username span {
+    color: #2f2f2f;
+    font-size: 0.9rem;
+}
+
+.review-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review-comment p{
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #000000;
+}
+
+.review-comment {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.deleteReview {
+    width: 18px;
+    height: 18px;
+}

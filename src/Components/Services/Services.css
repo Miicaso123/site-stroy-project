@@ -10,7 +10,7 @@
 
 .House img {
     position: absolute;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 .House_name {
@@ -22,6 +22,7 @@
     border-radius: 15px;
     background: rgba(248, 248, 248, 0.50);
     margin-top: 9px;
+    z-index: 2;
 }
 
 .House_name p {
@@ -46,6 +47,20 @@
     font-weight: 400;
     line-height: 77.4%;
     margin-bottom: 25px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.deleteIcon {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 34px;
+    height: 34px;
+    margin-top: 125px;
+    margin-left: 190px;
+   
 }
 
 .ServicesHouse {
@@ -115,6 +130,7 @@
     font-weight: 400;
     line-height: 77.4%;
     margin-bottom: 25px;
+    cursor: pointer;
 }
 
 .ServicesMaterial {
@@ -137,7 +153,9 @@
     height: 30px;
 }
 
-.form button {
+.form .servises_btn{
     height: 30px;
     width: 50px;
+    background-color: yellowgreen;
+    cursor: pointer;
 }
